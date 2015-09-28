@@ -1,2 +1,6 @@
-import(circular)
+import(circular,ADGofTest)
+importFrom("stats", "approx", "ks.test", "median", "optimise", "punif",
+     "runif")
+importFrom("grDevices", "graphics.off")
+importFrom("graphics", "hist", "lines")
 export(SOPIE,von_mises_sim,findh,circ.kernel)

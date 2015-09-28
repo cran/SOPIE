@@ -1,0 +1,9 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Manual",
+         title = "SOPIE: Non-Parametric Estimation of the Off-Pulse Interval of a Pulsar",
+         author = c(person("Willem Daniel", "Schutte")),
+         year = year,
+         note = note,
+         url = "https://CRAN.R-project.org/package=SOPIE")

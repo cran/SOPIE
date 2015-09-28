@@ -11,10 +11,12 @@ are combined in a wrapper function called \code{\link{SOPIE}}. Users should star
 \tabular{ll}{
 Package: \tab SOPIE\cr
 Type: \tab Package\cr
-Version: \tab 1.4\cr
-Date: \tab 2015-06-01\cr
+Version: \tab 1.5\cr
+Date: \tab 2015-09-28\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes \cr
+Depends: \tab circular, ADGofTest \cr
+Imports: \tab stats, grDevices, graphics \cr
 }
 The SOPIE package consists of 4 main functions. Each of these functions are 
 discussed in terms of its functioning, structure, arguments and output in the help documentation of each function.\cr
@@ -36,7 +38,7 @@ estimator and an indication of the estimated median off-pulse interval.
 }
 \author{
 Willem Daniel Schutte \cr
-Maintainer: Willem Daniel Schutte  <\email{wd.schutte@nwu.ac.za}>
+Maintainer: Willem Daniel Schutte  <\email{wd.schutte at nwu.ac.za}>
 }
 \references{
 Jammalamadaka, S. Rao and SenGupta, A. (2001). Topics in Circular Statistics, World Scientific Publishing Co. Pte. Ltd. \cr

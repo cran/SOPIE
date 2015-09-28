@@ -10,8 +10,8 @@ This data set contains n=21145 time of arrivals of photons with energies above 1
 
 \source{Obtained from Fermi LAT, energies above 100 MeV.}
 \references{
-Abdo A, et al. (2010b). "Fermi large area telescope observations of the Crab pulsar and
-nebula." The Astronomical Journal, 708, 1254-1267. \cr
+Abdo A, et al. (2010b). Fermi large area telescope observations of the Crab pulsar and
+nebula. The Astronomical Journal, 708, 1254-1267. \cr
 }
 \examples{
 data(crab)

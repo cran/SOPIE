@@ -77,7 +77,7 @@ A histogram estimate of the data is produced with the circular kernel density es
 Schutte WD (2014). Nonparametric estimation of the off-pulse interval(s) of a pulsar light
 curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199} \cr
 }
-\author{ Willem Daniel Schutte <\email{wd.schutte@nwu.ac.za}>}
+\author{ Willem Daniel Schutte <\email{wd.schutte at nwu.ac.za}>}
 %%\note{}
 %%\seealso{}
 \examples{

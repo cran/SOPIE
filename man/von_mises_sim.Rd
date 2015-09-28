@@ -18,11 +18,13 @@ then \eqn{\lfloor (1-noise)n \rfloor} values are generated from the Von Mises de
 \value{The output vector of this function is \eqn{n} random variates in the interval \eqn{[0; 1]} from a scaled Von Mises density with uniform noise proportional to \code{noise}.
 }
 \references{
+Jammalamadaka, S. Rao and SenGupta, A. (2001). Topics in Circular Statistics, World Scientific Publishing Co. Pte. Ltd. \cr
 Robert CP, Casella G (2010). Introducing Monte Carlo methods with R. Springer. \cr
 Schutte WD (2014). Nonparametric estimation of the off-pulse interval(s) of a pulsar light
 curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199} \cr
 }
-\author{Willem Daniel Schutte <\email{wd.schutte@nwu.ac.za}>}
+\author{Willem Daniel Schutte <\email{wd.schutte at nwu.ac.za}>}
+\seealso{\code{\link[circular]{pvonmises}}}
 \examples{
 set.seed(777)
 simdata<-von_mises_sim(n=5000,k=1,c=0.3,noise=0.2)
