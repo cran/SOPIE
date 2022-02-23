@@ -52,13 +52,14 @@ Cramer-von Mises and the Rayleigh goodness-of-fit test.}
 \item{$general }{a list containing the function call, the minimum value(s) used in the
 estimation, the level of significance (\eqn{\alpha}), the value of \code{g} and the value of \code{r}.}
 }
-\references{D'Agostino, R. & Stephens, M. (eds) (1986). Goodness-of-fit techniques, Marcel Dekker, Inc. \cr
+\references{D'Agostino, R. & Stephens, M. (eds) (1986). Goodness-of-t techniques, Marcel Dekker, Inc. \cr
 Jammalamadaka, S. Rao and SenGupta, A. (2001). Topics in Circular Statistics, World Scientific Publishing Co. Pte. Ltd. \cr
 Marsaglia G, Marsaglia J (2004). Evaluating the Anderson-Darling Distribution. Journal of Statistical software, 9, 1-5. \cr
 Marsaglia G, Tsang WW, Wang J (2003). Evaluating Kolmogorov's Distribution. Journal of Statistical Software, 8(18), 1-4.\cr
+Schutte WD, Swanepoel JWH (2016). SOPIE: an R package for the non-parametric estimation of the off-pulse interval of a pulsar light curve. Monthly Notices of the Royal Astronomical Society, 461, 627-640.\cr
 Stephens M (1970). Use of the Kolmogorov-Smirnov, Cramer-Von Mises and related statistics without extensive tables. Journal of the Royal Statistical Society. Series B (Methodological), 32, 115-122.
 }
-\author{ Willem Daniel Schutte <\email{wd.schutte at nwu.ac.za}>}
+\author{ Willem Daniel Schutte }
 %%\note{}
 \seealso{\code{\link[ADGofTest]{ad.test}} , \code{\link[stats]{ks.test}} , \code{\link[circular]{rayleigh.test}}}
 %%\seealso{\link{[ADGofTest]{\code{ad.test}}}}

@@ -11,12 +11,10 @@ are combined in a wrapper function called \code{\link{SOPIE}}. Users should star
 \tabular{ll}{
 Package: \tab SOPIE\cr
 Type: \tab Package\cr
-Version: \tab 1.5\cr
-Date: \tab 2015-09-28\cr
+Version: \tab 1.6\cr
+Date: \tab 2022-02-23\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes \cr
-Depends: \tab circular, ADGofTest \cr
-Imports: \tab stats, grDevices, graphics \cr
 }
 The SOPIE package consists of 4 main functions. Each of these functions are 
 discussed in terms of its functioning, structure, arguments and output in the help documentation of each function.\cr
@@ -38,12 +36,13 @@ estimator and an indication of the estimated median off-pulse interval.
 }
 \author{
 Willem Daniel Schutte \cr
-Maintainer: Willem Daniel Schutte  <\email{wd.schutte at nwu.ac.za}>
+Maintainer: Willem Daniel Schutte 
 }
 \references{
 Jammalamadaka, S. Rao and SenGupta, A. (2001). Topics in Circular Statistics, World Scientific Publishing Co. Pte. Ltd. \cr
 Schutte WD (2014). Nonparametric estimation of the off-pulse interval(s) of a pulsar light
 curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199} \cr
+Schutte WD, Swanepoel JWH (2016). SOPIE: an R package for the non-parametric estimation of the off-pulse interval of a pulsar light curve. Monthly Notices of the Royal Astronomical Society, 461, 627-640.\cr
 }
 \keyword{ package }
 %%\seealso{}

@@ -33,13 +33,14 @@ Jammalamadaka S, SenGupta A (2001). Topics in circular statistics. World Scienti
 Co. Pte. Ltd. \cr
 Schutte WD (2014). Nonparametric estimation of the off-pulse interval(s) of a pulsar light
 curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199} \cr
+Schutte WD, Swanepoel JWH (2016). SOPIE: an R package for the non-parametric estimation of the off-pulse interval of a pulsar light curve. Monthly Notices of the Royal Astronomical Society, 461, 627-640.\cr
 Sheather, S. & Jones, M. (1991). A reliable data-based bandwidth selection method for kernel
 density estimation, Journal of the Royal Statistical Society, Series B, 53:683-690. \cr
 Silverman, B. (1986). Density estimation for Statistics and Data analysis, Chapman and Hall.
 Taylor, C. (2008). Automatic bandwith selection for circular density estimation, Computational
 Statistics & Data Analysis, 52:3493-3500.
 Wand, M. & Jones, M. (1995). Kernel Smoothing, Chapman and Hall.}
-\author{ Willem Daniel Schutte <\email{wd.schutte at nwu.ac.za}>}
+\author{ Willem Daniel Schutte }
 
 \examples{
 simdata<-von_mises_sim(n=5000,k=1,c=0.3,noise=0.2)

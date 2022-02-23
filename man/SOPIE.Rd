@@ -75,9 +75,10 @@ A histogram estimate of the data is produced with the circular kernel density es
 }
 \references{
 Schutte WD (2014). Nonparametric estimation of the off-pulse interval(s) of a pulsar light
-curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199} \cr
+curve. Ph.D. thesis, North-West University. URL \url{http://hdl.handle.net/10394/12199}. \cr
+Schutte WD, Swanepoel JWH (2016). SOPIE: an R package for the non-parametric estimation of the off-pulse interval of a pulsar light curve. Monthly Notices of the Royal Astronomical Society, 461, 627-640.\cr
 }
-\author{ Willem Daniel Schutte <\email{wd.schutte at nwu.ac.za}>}
+\author{ Willem Daniel Schutte }
 %%\note{}
 %%\seealso{}
 \examples{
